@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>智慧仓库</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .button {
+      font-size: 24px;
+      padding: 20px 40px;
+      margin: 10px;
+      color: red; /* 设置字体颜色为红色 */
+    }
+
+    /* 媒体查询 - 当屏幕宽度小于或等于 768px 时，调整按钮样式 */
+    @media screen and (max-width: 768px) {
+      .container {
+        height: 100vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button class="button">监测体系</button>
+    <div>
+      <button class="button">环境</button>
+      <button class="button">管理</button>
+      <button class="button">果树认领监测</button>
+    </div>
+    <button class="button">管理体系</button>
+    <button class="button">存储体系</button>
+  </div>
+</body>
+</html>
